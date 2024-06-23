@@ -12,9 +12,11 @@ int main() {
 
     int cantidad, maximo;
 
-    cout << "Introduce la cantidad de números aleatorios a generar: "; cin >> cantidad;
+    cout << "Introduce la cantidad de números aleatorios a generar: ";
+	cin >> cantidad;
  
-    cout << "Introduce el valor máximo permitido para los números aleatorios: "; cin >> maximo;
+    cout << "Introduce el valor máximo permitido para los números aleatorios: "; 
+	cin >> maximo;
 
     cout << "Números aleatorios generados:" << endl;
     for (int i = 0; i < cantidad; ++i) {
